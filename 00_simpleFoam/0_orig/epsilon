@@ -25,27 +25,27 @@ boundaryField
     {
         type            epsilonFreeSurface;
 		up				(0 0 1);
-		value           uniform 0.00022813802409849448;
+		value           $internalField;
     }
     bedWall
     {
         type            epsilonWallFunction;
-        value           uniform 0.00022813802409849448;
+        value           $internalField;
     }
     leftSide
     {
         type            epsilonWallFunction;
-        value           uniform 0.00022813802409849448;
+        value           $internalField;
     }
     rightSide
     {
         type            epsilonWallFunction;
-        value           uniform 0.00022813802409849448;
+        value           $internalField;
     }
     inletWater
     {
         type            fixedValue;
-        value           uniform 0.00022813802409849448;
+        value           $internalField;
     }
     outletWater
     {
