@@ -126,4 +126,14 @@ surfaces
             normalVector (0 1 0);
         }
     }
+    top_view
+    {
+        type        plane;
+        planeType   pointAndNormal;
+        pointAndNormalDict
+        {
+            basePoint   (0 0 1.54);
+            normalVector (0 0 1); // z -1 ?
+        }
+    }
 );
